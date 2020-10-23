@@ -1,0 +1,13 @@
+* Hello, CLJS!
+This is my attempt to start with ClojureScript.
+
+At first, the language, tooling, and ecosystem can be
+overwhelming. When looking for tutorials to get started with
+ClojureScript, they mention tools or libraries that are completely
+unknown for a newbie: leiningen? Figwheel? Shadow-CLJS? Reagent?
+Re-frame? To me, it all seemed like too much, so I decided to learn
+from scratch and learn each bit of the tooling incrementally, to
+understand why I need them in the first place and how they all fit
+together.
+
+This repository starts with [[https://clojurescript.org/guides/quick-start][ClojureScript's quickstart]].
