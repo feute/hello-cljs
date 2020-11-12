@@ -1,5 +1,5 @@
-{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}}
- :aliases {:dev {:main-opts ["-m" "cljs.main"
-                             "-w" "src"
-                             "-c" "hello-cljs.core"
-                             "-r"]}}}
+{:deps {org.clojure/clojurescript {:mvn/version "1.10.758"}
+        com.bhauman/figwheel-main {:mvn/version "0.2.12"}}
+ :paths ["src" "resources" "target"]
+ :aliases {:fig {:main-opts ["-m" "figwheel.main"
+                             "--build" "dev" "--repl"]}}}
